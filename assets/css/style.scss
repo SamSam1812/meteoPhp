@@ -1,0 +1,86 @@
+body{
+  background-image: url(../img/weatherfond.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section{
+  padding: 100px 120px;
+  z-index: 1;
+  position: relative;
+  h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+  }
+  .result{
+    text-align: center;
+  }
+}
+
+.table{
+  font-size: 21px;
+  width: 100%;
+  margin-top: 10px;
+  border: solid 2px gray;
+  overflow: hidden;
+  border-radius: 20px;
+  td{
+    border: solid 1px gray;
+    color: white;
+    background-color: rgba(61, 60, 60, 0.87);
+  }
+  th{
+    border: solid 1px gray;
+    text-align: center;
+    background-color: rgba(18, 12, 26, 0.87);
+  }
+}
+.tableauDiv{
+  display: flex;
+  justify-content: center;
+}
+.select{
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.graph{
+  display: flex;
+  color: white;
+  canvas{
+    width: 40%;
+  }
+}
+a{
+  color: white;
+  font-size: 20px;
+  transition: 300ms;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: gray;
+  text-decoration: underline;
+}
+.export{
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: rgba(58, 41, 82, 0.87);
+  color: white;
+  border: solid 1px rgba(18, 12, 26, 0.87);
+  transition: 300ms;
+  font-family: "Poppins", sans-serif;
+}
+.export:hover{
+  color: rgba(18, 12, 26, 0.87) ;
+  background: white;
+}
+nav{
+  margin-bottom: 50px;
+}
+label{
+  display: none;
+}
